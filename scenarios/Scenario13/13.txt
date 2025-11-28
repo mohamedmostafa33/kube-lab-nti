@@ -1,0 +1,5 @@
+A node-level log collector must run everywhere.
+Requirements:
+DaemonSet name: node-logger
+Image: fluent/fluent-bit
+Mount /var/log

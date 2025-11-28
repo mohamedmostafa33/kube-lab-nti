@@ -1,0 +1,7 @@
+Expose a backend service within the cluster.
+Requirements:
+Create:
+Deployment: backend
+Image: python:3.9-slim
+Container port: 5000
+ClusterIP service: backend-service → port 80 → targetPort 5000

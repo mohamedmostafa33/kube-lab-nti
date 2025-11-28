@@ -1,0 +1,7 @@
+A logging app must run only on nodes labeled role=logging.
+Requirements:
+Use nodeSelector:
+key: role
+value: logging
+Use tolerations for node taint:
+node-role=logging:NoSchedule

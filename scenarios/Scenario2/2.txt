@@ -1,0 +1,6 @@
+The API team wants high availability for their microservice.
+Requirements:
+Create a ReplicaSet called api-rs
+Runs 3 replicas
+Image: hashicorp/http-echo
+Args: "Hello from API"

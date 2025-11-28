@@ -1,0 +1,4 @@
+Only the frontend app should access the backend.
+Requirements:
+Allow ingress only from pods with label app=frontend
+Deny all else

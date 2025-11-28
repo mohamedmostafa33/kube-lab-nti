@@ -1,0 +1,6 @@
+You need to create a new environment for QA.
+Requirements:
+Create a namespace qa
+Deploy a deployment called qa-web inside it
+Image: nginx:alpine
+2 replicas

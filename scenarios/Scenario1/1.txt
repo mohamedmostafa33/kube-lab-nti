@@ -1,0 +1,5 @@
+Your company "TechStore" needs a small test web server running on Kubernetes.
+Requirements:
+Create a pod named web-pod
+Container image: nginx:latest
+Expose port 80

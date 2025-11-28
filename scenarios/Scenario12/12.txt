@@ -1,0 +1,5 @@
+A monitoring agent must always run on every master node as a static pod.
+Requirements:
+Pod name: monitor-agent
+Image: busybox
+Location: /etc/kubernetes/manifests/

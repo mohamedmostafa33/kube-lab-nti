@@ -1,0 +1,5 @@
+A batch job must run once to process monthly reports.
+Requirements:
+Job name: report-generator
+Image: bash
+Command: echo "Report generation done"
