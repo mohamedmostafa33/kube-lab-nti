@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: logging-app
+  labels:
+    role: logging
+spec:
+  nodeSelector:
+    role: logging
+  tolerations:
+    - key: "role"
+      operator: "Equal"
+      value: "logging"
+      effect: "NoSchedule"
+  containers:
+    - name: logger
+      image: nginx
+#run ---->>
+#kubectl taint nodes <node-name> role=logging:NoSchedule
+

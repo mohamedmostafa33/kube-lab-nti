@@ -1,0 +1,5 @@
+Students must verify and describe how pods communicate through the installed CNI.
+Requirements:
+Deploy a test pod
+Run connectivity tests between nodes
+Document CNI behavior (Calico/Flannel/Cilium…)

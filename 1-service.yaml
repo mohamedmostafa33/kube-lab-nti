@@ -5,7 +5,7 @@ metadata:
   namespace: web-ns
 spec:
   selector:
-    app: frontend
+    app: frontend-app
   ports:
     - port: 80
       targetPort: 80

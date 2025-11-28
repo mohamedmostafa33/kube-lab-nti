@@ -1,0 +1,4 @@
+Your app needs a DB password stored securely.
+Requirements:
+Create a secret named db-secret containing DB_PASSWORD=pass123
+Deployment using the secret as env var

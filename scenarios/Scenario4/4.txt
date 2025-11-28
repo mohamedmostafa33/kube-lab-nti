@@ -1,0 +1,10 @@
+A frontend application is unstable and needs resource control and health checks.
+Requirements:
+Create a Deployment:
+Name: frontend
+Image: nginx:1.23
+Replicas: 2
+CPU limit: 200m, request: 100m
+Memory limit: 256Mi, request: 128Mi
+Liveness probe: http://:80/healthz
+Readiness probe: http://:80/ready

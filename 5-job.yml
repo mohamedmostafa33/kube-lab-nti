@@ -13,4 +13,4 @@ spec:
         - name: run
           image: alpine
           command: ["sh","-c","echo done"]
-      restartPolicies: Never
+      restartPolicy: Never

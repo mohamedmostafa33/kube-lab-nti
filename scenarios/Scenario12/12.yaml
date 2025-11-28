@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: monitor-agent
+  labels:
+    app: monitor-agent
+spec:
+  containers:
+    - name: monitor-agent
+      image: busybox
+      command: ["sh", "-c", "while true; do echo Monitoring...; sleep 30; done"]

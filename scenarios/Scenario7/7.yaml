@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: db-secret
+type: Opaque
+data:
+  DB_PASSWORD: cGFzczEyMw== # base64 encoded 'pass123'
+  API_KEY: c29tZS1hcGkta2V5 # base64 encoded 'some-api
+  TOKEN: dG9rZW4tc2VjcmV0 # base64 encoded 'token
+

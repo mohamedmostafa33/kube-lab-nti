@@ -1,0 +1,5 @@
+Give a support engineer read-only access to pods in namespace support
+Requirements:
+Role: support-read
+Permissions: GET/LIST/WATCH pods
+RoleBinding binding user support-user

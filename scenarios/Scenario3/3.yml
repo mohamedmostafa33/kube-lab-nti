@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: namespace
+metadata:
+  name: qa
+---
+apiVersion: v1
+kind: deployment
+metadata:
+  name: qa-deployment
+  namespace: qa
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: qa-app
+  template:
+    metadata:
+      labels:
+        app: qa-app
+    spec:
+      containers:
+        - name: qa-container
+          image: nginx:alpine
+          ports:
+            - containerPort: 80

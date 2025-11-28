@@ -1,0 +1,5 @@
+A service needs to download initial data before starting.
+Requirements:
+Init container downloads data to /data
+Main container serves it using nginx
+Use an emptyDir volume

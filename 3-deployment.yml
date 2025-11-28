@@ -16,7 +16,7 @@ spec:
         disk: ssd
       tolerations:
         - key: "critical"
-          operator: "="
+          operator: "Equal"
           effect: "NoSchedule"
       containers:
         - name: api

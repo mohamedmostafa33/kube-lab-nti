@@ -12,5 +12,5 @@ spec:
           mountPath: /host
   volumes:
     - name: host
-      hostpath:
+      hostPath:
         path: /

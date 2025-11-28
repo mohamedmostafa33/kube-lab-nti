@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: web-ing
 spec:
-  ingressClassName: ngnix
+  ingressClassName: nginx
   tls:
     - hosts:
         - app.example.com

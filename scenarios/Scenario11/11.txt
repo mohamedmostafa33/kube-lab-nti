@@ -1,0 +1,6 @@
+Run a cleanup script every day at 2 AM.
+Requirements:
+CronJob name: daily-cleanup
+Schedule: "0 2 * * *"
+Image: alpine
+Command: rm -rf /tmp/*
