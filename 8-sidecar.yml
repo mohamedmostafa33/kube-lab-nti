@@ -12,3 +12,6 @@ spec:
     - name: logger
       image: busybox
       command: ["sh","-c","tail -f /data"]
+  volumes:
+    - name: shared
+      emptyDir: {}
