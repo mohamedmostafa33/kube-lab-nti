@@ -4,7 +4,7 @@ metadata:
   name: drd-api
 spec:
   strategy:
-    type: RollingUpdate 
+    type: RollingUpdate
   replicas: 3
   selector:
     matchLabels:

@@ -5,7 +5,7 @@ metadata:
 spec:
   podSelector:
     matchLabels:
-      name: backend
+      app: backend
   ingress:
     - from:
         - podSelector:
